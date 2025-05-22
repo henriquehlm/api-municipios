@@ -10,19 +10,24 @@ Esta API oferece funcionalidades para listar, sincronizar e consultar município
 - Docker instalado ([link para instalação](https://docs.docker.com/get-docker/))
 - Docker Compose instalado ([link para instalação](https://docs.docker.com/compose/install/))
 
+## Clone o repositorio 
+```bash
+git clone https://github.com/henriquehlm/api-municipios.git
+cd api-municipios
+```
+
 ## Passo 1: Construir a imagem Docker da aplicação
 
 No diretório raiz do projeto (onde está o `Dockerfile`), execute o comando:
 
 ```bash
-docker build -t minha-api-municipios .
+docker build -t api-municipios .
 ```
 
 ## Passo 2: Construir a imagem Docker da aplicação
 ```bash
-docker-compose up -d
+docker-compose up --build
 ```
-
 ---
 
 ## Endpoints

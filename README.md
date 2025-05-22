@@ -1,7 +1,7 @@
 
 # API de Municípios - Documentação
 
-Esta API oferece funcionalidades para listar, sincronizar e consultar municípios brasileiros com dados geoespaciais, utilizando Flask, SQLAlchemy e PostGIS.
+Esta API, desenvolvida em Python, oferece funcionalidades para listar, sincronizar e consultar municípios brasileiros com dados geoespaciais extraídos do IBGE, utilizando Flask, SQLAlchemy e PostGIS.
 
 # Guia para Construção e Execução da API com Docker
 

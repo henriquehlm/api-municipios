@@ -29,6 +29,7 @@ docker build -t api-municipios .
 docker-compose up --build
 ```
 ## Passo 3: Disponivel a API na url abaixo
+Observação: ao subir a imagem, a estrutura do banco será criada automaticamente. É necessário apenas sincronizar inicialmente no endpoint /municipios/sincronizar.
 ```bash
 [local](http://localhost:5000/)
 ```

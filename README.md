@@ -24,10 +24,15 @@ No diretório raiz do projeto (onde está o `Dockerfile`), execute o comando:
 docker build -t api-municipios .
 ```
 
-## Passo 2: Construir a imagem Docker da aplicação
+## Passo 2: Efetuar o build
 ```bash
 docker-compose up --build
 ```
+## Passo 3: Disponivel a API na url abaixo
+```bash
+[local](http://localhost:5000/)
+```
+
 ---
 
 ## Endpoints

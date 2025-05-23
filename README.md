@@ -93,7 +93,7 @@ Observação: ao subir a imagem, a estrutura do banco será criada automaticamen
 
 ### 3. Sincronizar municípios por UF
 
-- **URL:** `/municipios`
+- **URL:** `/municipios/sincronizar`
 - **Método:** `POST`
 - **Body (JSON):**
   - `uf` (opcional) — sigla da Unidade Federativa para sincronizar (ex: `"PR"`)

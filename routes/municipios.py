@@ -22,7 +22,7 @@ def lista_municipio(id):
     return jsonify({"id": municipio.id, "nome": municipio.nome})
 
 
-@municipios_bp.route('/municipios', methods=['POST'])
+@municipios_bp.route('/municipios/sincronizar', methods=['POST'])
 def sincronizar_municipios():
     data = request.get_json()
     uf = data.get('uf', 'PR').upper() if data else 'PR'
